@@ -45,6 +45,9 @@ def takeImage():
         harcascadePath = "haarcascade_frontalface_default.xml"
         detector = cv2.CascadeClassifier(harcascadePath)
         sampleNum = 0
+        
+        os.mkdir("TrainingImages")
+
         while True:
             ret, img = cam.read()
             gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -52,7 +55,7 @@ def takeImage():
             for (x, y, w, h) in faces:
                 cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
                 sampleNum = sampleNum + 1
-                cv2.imwrite("TrainingImages\ " + name + "." + Id + '.' + str(sampleNum) + ".jpg",
+                cv2.imwrite(os.path.join("TrainingImages", name + "." + Id + '.' + str(sampleNum) + ".jpg"),
                             gray[y:y + h, x:x + h])
                 cv2.imshow('frame', img)
             if cv2.waitKey(100) & 0xFF == ord('q'):
@@ -63,9 +66,14 @@ def takeImage():
         cam.release()
         cv2.destroyAllWindows()
         res = 'Student details saved with: \n Matric number : ' + Id + ' and  Full Name:' + name
-        row = [Id, name]
-        with open('StudentDetails\studentDetails.csv', 'a+') as csvFile:
+        row = [Id, name, str(datetime.date.today()), str(datetime.datetime.now().time())]
+
+        col_names = ['Id', 'Name', 'Date', 'Time']
+
+        with open('studentDetails.csv', 'a+') as csvFile:
+               
             writer = csv.writer(csvFile)
+            writer.writerow(col_names)
             writer.writerow(row)
         csvFile.close()
         label4.configure(text=res)
@@ -102,10 +110,10 @@ def trainImage():
 
 def trackImage():
     recognizer = cv2.face.LBPHFaceRecognizer_create()
-    recognizer.read("TrainingImageLabels\Trainner.yml")
+    recognizer.read("Trainner.yml")
     harcascadePath = "haarcascade_frontalface_default.xml"
     faceCascade = cv2.CascadeClassifier(harcascadePath)
-    df = pd.read_csv("StudentDetails\studentDetails.csv")
+    df = pd.read_csv("studentDetails.csv")
     font = cv2.FONT_HERSHEY_SIMPLEX
     cam=cv2.VideoCapture(0)
     col_names = {'Id', 'Name', 'Date', 'Time'}
@@ -121,15 +129,17 @@ def trackImage():
                 ts = time.time()
                 date = datetime.datetime.fromtimestamp(ts).strftime('%d-%m-%Y')
                 timeStamp = datetime.datetime.fromtimestamp(ts).strftime('%H:%M')
-                aa=df.loc[df['ID'] == Id]['NAME'].values
+                aa=df.loc[df['Id'] == Id]['Name'].values
                 tt = str(Id) + "-" + aa
                 attendance.loc[len(attendance)] = [Id, aa, date, timeStamp]
             else:
                 Id = 'Unknown'
                 tt = str(Id)
+                if os.path.exists("ImagesUnknown") == False:
+                    os.mkdir("ImagesUnknown")
                 if conf > 85:
                     noOfFile = len(os.listdir("ImagesUnknown")) + 1
-                    cv2.imwrite("ImagesUnknown\Image" + str(noOfFile) + ".jpg", img[y:y + h, x:x + w])
+                    cv2.imwrite(os.path.join("ImagesUnknown", "Image" + str(noOfFile) + ".jpg"), img[y:y + h, x:x + w])
             attendance = attendance.drop_duplicates(subset=['Id'], keep='first')
             cv2.putText(img, str(tt), (x, y + h), font, 1, (255, 255, 255), 2)
         cv2.imshow('Face Recognizer', img)
