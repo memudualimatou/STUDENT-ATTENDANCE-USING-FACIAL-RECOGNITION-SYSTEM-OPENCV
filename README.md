@@ -1,23 +1,22 @@
 # STUDENT ATTENDANCE uSING FACIAL RECOGNITION SYSTEM OPENCV
 
-## This is an automatic student attendance system using face recognition.
-***
+#### This is an automatic student attendance system using face recognition.
+
 
 ## FACE RECOGNITION 
 ***
 
 Face recognition is a biometric recognition technique.
-Biometric recognition is an information system that allows the identification of a person based on some of its main physiological and behavioral characteristics. It is based on hardware systems for data acquisition that integrate the software components that allow, through mathematical algorithms, to perform data analysis and reconstruct the identity of a person and recognize it.
+Biometric recognition is an information system that allows the identification of a person based on some of its main physiological and behavioral characteristics.
 Face recognition is a broad problem of identifying or verifying people in photographs and videos, a process comprised of detection, alignment, feature extraction, and a recognition task
-
-it has 4 steps which are :
-1.Face Detection: Look at the picture and find a face in it.
-2.Data Gathering: Extract unique characteristics of Kirill’s face that it can use to differentiate him from another person, like eyes, mouth, nose, etc.
-3.Data Comparison: Despite variations in light or expression, it will compare those unique features to all the features of all the people you know.
-4.Face Recognition: It will determine “Hey, that’s my boy Kirill!”
+It has 4 steps which are :
+1. Face Detection: Look at the picture and find a face in it.
+2. Data Gathering: Extract unique characteristics of Kirill’s face that it can use to differentiate him from another person, like eyes, mouth, nose, etc.
+3. Data Comparison: Despite variations in light or expression, it will compare those unique features to all the features of all the people you know.
+4. Face Recognition: It will determine “Hey, that’s my boy Kirill!”
 
 ## TECHONLOGY USED
-***
+
 * **OPENCV**
 >OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. 
 OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.
@@ -36,6 +35,10 @@ OpenCV was built to provide a common infrastructure for computer vision applicat
 
 ***
 ## HOW THE SYSTEM WORKS?
+
+1. **STEP1**
+![capture](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/Capture12.PNG)
+
 
 
 The student interact with the system through a graphical user interface(GUI) built using tkInter.
