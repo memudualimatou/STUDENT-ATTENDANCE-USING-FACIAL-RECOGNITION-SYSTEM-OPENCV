@@ -26,7 +26,7 @@ OpenCV was built to provide a common infrastructure for computer vision applicat
 >Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, and is Python's de facto standard GUI.
 
 * **HAARCASCADE CLASSIFIER**
-> is an effective object detection approach,Haar classifiers are organized in sequences called stages (classification stages). The stage value is the sum of its classifier values.
+>It is an effective object detection approach,Haar classifiers are organized in sequences called stages (classification stages). The stage value is the sum of its classifier values.
 
 * **LocalBinaryPatternHistogram (LBPH) recognizer**
 > It is an openCV recognizer, is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number.
@@ -45,7 +45,7 @@ OpenCV was built to provide a common infrastructure for computer vision applicat
 
 
 
->>The student interact with the system through the graphical user interface(GUI) above.
+>The student interact with the system through the graphical user interface(GUI) above.
 The first step the student has to enter his details(Name and ID) this details will be stored in a csv file **'StudentDetailss.csv'**, the ID is Matric Number on the GUI.
 second step, the student will click on the **CAPTURE IMAGE** button to capture his faces, here 50pictures of the student will be taken and stored in the **TrainingImages** Folder.  The **haar-cascadeclassifier** file to detect faces through the video stream while the student face is being captured.
 the notification board will print ou the student details after a succesfull data collection.
@@ -65,7 +65,8 @@ the recognizer will save the face features in the **trainner.yml** and "IMAGE TR
 3. **FACE TRACKING**
 
 The student has to click on the **TRACK IMAGE** button to allow the face recognizer to track his face through a video stream, when trhe system successfully recognize the student face, his details will show and "ATTENDANCE UPDATED" will be printed out otherwise , the ID will be Unkown and "ID UNKOWN, ATTENDANCE NOT UPDATED" will be printed out.
-Simustenously, a csv file **AttendanceFile.csv'** will be updated with the ID,NAME of the student and DATE Aand TIME at which his face has recognized.<br>
+Simustenously, a csv file **AttendanceFile.csv'** will be updated with the ID,NAME of the student and DATE Aand TIME at which his face has recognized.
+the Unkown face captured will be store in the **UnkownImages** folder.<br>
 
 
 ![capture3](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/ezgif.com-gif-maker%20(1).gif)
