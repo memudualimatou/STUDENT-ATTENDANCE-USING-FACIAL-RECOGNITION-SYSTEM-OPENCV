@@ -1,6 +1,6 @@
 ## STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM 
 
-***This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
+**This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
 
 
 ## FACE RECOGNITION 
@@ -50,7 +50,7 @@ the notification board will print ou the student details after a succesfull data
 
 <br>
 
-![capture2](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/555.PNG=250x250)
+![capture2](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/555.PNG)
 
 
 
@@ -69,12 +69,22 @@ the Unkown face captured will be store in the **UnkownImages** folder.<br>
 
 ![capture3](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/ezgif.com-gif-maker%20(1).gif)
 
-***
-## SYSTEM REQUIREMENT
 
-1. OpenCV-contrib-python  version:4.2.0.34
-2. TkInter version:8.6
-3. PIL version:7.0.0
+##  PEREQUISITES
+
+All the dependencies and required libraries are included in the file `requirements.txt` [See here](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/requirements.txt)
+
+
+##  INSTALLATION
+
+Clone the repo
+```$ git clone https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV.git```
+
+Change your directory to the cloned repo and create a Python virtual environment named 'test'
+```$ mkvirtualenv test```
+Now, run the following command in your Terminal/Command Prompt to install the libraries required
+
+```$ pip3 install -r requirements.txt```
 
 
 check this link to view the trainner file.
