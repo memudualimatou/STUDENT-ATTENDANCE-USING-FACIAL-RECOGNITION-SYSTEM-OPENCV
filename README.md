@@ -98,7 +98,7 @@ Feel free to file a new issue with a respective title and description on the the
 Made with ❤️  by MEMUDU alimatou sadia
 
 ## 👍 Credits
-https://www.pyimagesearch.com/
+https://www.pyimagesearch.com/ \
 https://www.tensorflow.org/tutorials/images/transfer_learning
 
 
