@@ -2,7 +2,7 @@
 
 #### This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
 
-
+<br>
 ## FACE RECOGNITION 
 ***
 
@@ -30,14 +30,15 @@ OpenCV was built to provide a common infrastructure for computer vision applicat
 * **LocalBinaryPatternHistogram (LBPH) recognizer**
 > It is an openCV recognizer, is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number.
 
-* **trainner
->file detect specific face using python and opencv
+* **trainner.yml**
+>file detect specific face using python and opencv.
+
 
 ***
 ## HOW THE SYSTEM WORKS?
 
 1. **DATA COLLECTION**:
-
+<br>
 
 ![capture](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/Capture12.PNG)
 
@@ -46,21 +47,22 @@ OpenCV was built to provide a common infrastructure for computer vision applicat
 The student interact with the system through the graphical user interface(GUI) above.
 The first step the student has to enter his details(Name and ID) this details will be stored in a csv file **'StudentDetailss.csv'**, the ID is Matric Number on the GUI.
 second step, the student will click on the **CAPTURE IMAGE** button to capture his faces, here 50pictures of the student will be taken and stored in the **TrainingImages** Folder.  The **haar-cascadeclassifier** file to detect faces through the video stream while the student face is being captured.
-the notification board will print ou the student details after a succesfull data collection.
+the notification board will print ou the student details after a succesfull data collection.<br>
 
 ![capture2](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/555.PNG)
 
 
+***
 2. **IMAGE TRAINED**
 
 The student has to click on the  **TRAIN IMAGE** button which will link his details, face features to the **LBPHrecognizer** to ease further face recognition,
 the recognizer will save the face features in the **trainner.yml** and "IMAGE TRAINED" will be printed on the GUI notification board after a successfull linkage.
 
-
+***
 3. **FACE TRACKING**
 
 The student has to click on the **TRACK IMAGE** button to allow the face recognizer to track his face through a video stream, when trhe system successfully recognize the student face, his details will show and "ATTENDANCE UPDATED" will be printed out otherwise , the ID will be Unkown and "ID UNKOWN, ATTENDANCE NOT UPDATED" will be printed out.
-Simustenously, a csv file **AttendanceFile.csv'** will be updated with the ID,NAME of the student and DATE Aand TIME at which his face has recognized.
+Simustenously, a csv file **AttendanceFile.csv'** will be updated with the ID,NAME of the student and DATE Aand TIME at which his face has recognized.<br>
 
 
 ![capture3](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/ezgif.com-gif-maker%20(1).gif)
