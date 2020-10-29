@@ -1,60 +1,54 @@
-## STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM OPENCV
+## STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM 
 
-##### This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
+***###This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
 
 
 ## FACE RECOGNITION 
-***
 
 Face recognition is a biometric recognition technique.
 Biometric recognition is an information system that allows the identification of a person based on some of its main physiological and behavioral characteristics.
 Face recognition is a broad problem of identifying or verifying people in photographs and videos, a process comprised of detection, alignment, feature extraction, and a recognition task
 It has 4 steps which are :
-1. **Face Detection**: Look at the picture and find a face in it.
-2. **Data Gathering**: Extract unique characteristics of student’s face that it can use to differentiate him from another person, like eyes, mouth, nose, etc.
-3. **Data Comparison**: Despite variations in light or expression, it will compare those unique features to all the features of all the people you know.
-4. **Face Recognition:** It will determine “Hey, that’s my student ”
+1. **Face Detection** 
+2. **Data Gathering**
+3. **Data Comparison**
+4. **Face Recognition** 
 
-***
+
 ## TECHONLOGY USED
 
-* **OPENCV**
-OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. 
-OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.
+* [OPENCV](https://opencv.org/about/)
 
-* **TKINTER**
-Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, and is Python's de facto standard GUI.
+* [TKINTER](https://docs.python.org/3/library/tkinter.html)
 
-* **HAARCASCADE CLASSIFIER**
-It is an effective object detection approach,Haar classifiers are organized in sequences called stages (classification stages). The stage value is the sum of its classifier values.
+* [HAAR-CASCADE CLASSIFIER](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
 
-* **LocalBinaryPatternHistogram (LBPH) recognizer**
-It is an openCV recognizer, is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number.
+* [LocalBinaryPatternHistogram (LBPH) recognizer](https://docs.opencv.org/master/df/d25/classcv_1_1face_1_1LBPHFaceRecognizer.html)
 
-* **trainner.yml**
-file detect specific face using python and opencv.
+* [trainner.yml](https://docs.opencv.org/master/dd/d65/classcv_1_1face_1_1FaceRecognizer.html)
 
-* **PIL**
-Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
+* [PIL](https://pillow.readthedocs.io/en/stable/)
 
-***
+
 ## HOW THE SYSTEM WORKS?
 
 1. **DATA COLLECTION**:
 <br>
 
-![capture](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/Capture12.PNG)
+![capture](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/Capture12.PNG =250x250)
 
 
 
->The student interact with the system through the graphical user interface(GUI) above.
+
+The student interact with the system through the graphical user interface(GUI) above.
 The first step the student has to enter his details(Name and ID) this details will be stored in a csv file **'StudentDetailss.csv'**, the ID is Matric Number on the GUI.
 second step, the student will click on the **CAPTURE IMAGE** button to capture his faces, here 50pictures of the student will be taken and stored in the **TrainingImages** Folder.  The **haar-cascadeclassifier** file to detect faces through the video stream while the student face is being captured.
 the notification board will print ou the student details after a succesfull data collection.
 
+
 <br>
 
-![capture2](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/555.PNG)
+![capture2](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/555.PNG =250x250)
 
 
 ***
