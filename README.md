@@ -1,6 +1,6 @@
 ## STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM OPENCV
 
-#### This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
+##### This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
 
 
 ## FACE RECOGNITION 
@@ -11,9 +11,9 @@ Biometric recognition is an information system that allows the identification of
 Face recognition is a broad problem of identifying or verifying people in photographs and videos, a process comprised of detection, alignment, feature extraction, and a recognition task
 It has 4 steps which are :
 1. **Face Detection**: Look at the picture and find a face in it.
-2. **Data Gathering**: Extract unique characteristics of Kirill’s face that it can use to differentiate him from another person, like eyes, mouth, nose, etc.
+2. **Data Gathering**: Extract unique characteristics of student’s face that it can use to differentiate him from another person, like eyes, mouth, nose, etc.
 3. **Data Comparison**: Despite variations in light or expression, it will compare those unique features to all the features of all the people you know.
-4. **Face Recognition:** It will determine “Hey, that’s my boy ”
+4. **Face Recognition:** It will determine “Hey, that’s my student ”
 
 ***
 ## TECHONLOGY USED
@@ -78,7 +78,7 @@ the Unkown face captured will be store in the **UnkownImages** folder.<br>
 2. TkInter version:8.6
 3. PIL version:7.0.0
 
-check this link to view the trainner file.
 
+check this link to view the trainner file.
 https://bitbucket.org/memudu_alimatou/facial-recognition-opencv/src/master/
 
