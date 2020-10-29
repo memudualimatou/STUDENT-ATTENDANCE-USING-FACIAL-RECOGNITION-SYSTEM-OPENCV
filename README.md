@@ -78,14 +78,14 @@ All the dependencies and required libraries are included in the file `requiremen
 ## 🚀 INSTALLATION
 
 Clone the repo\
-```$ git clone https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV.git```\
+```$ git clone https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV.git```
 
 Change your directory to the cloned repo and create a Python virtual environment named 'test'\
 ```$ mkvirtualenv test```
-\
+<br />
 Now, run the following command in your Terminal/Command Prompt to install the libraries required\
 
-```$ pip3 install -r requirements.txt```\
+```$ pip3 install -r requirements.txt```
 
 To download the **Trainner.yml** File [click here](https://bitbucket.org/memudu_alimatou/facial-recognition-opencv/src/master/)
 
