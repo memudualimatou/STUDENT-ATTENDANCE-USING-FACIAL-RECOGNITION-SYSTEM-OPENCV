@@ -1,4 +1,4 @@
-## STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM 
+<h1 align="center"> # STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM </h1>
 
 ***This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.***
 
@@ -80,12 +80,16 @@ All the dependencies and required libraries are included in the file `requiremen
 Clone the repo\
 ```$ git clone https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV.git```
 
-Change your directory to the cloned repo and create a Python virtual environment named 'test'\
+
+Change your directory to the cloned repo and create a Python virtual environment named 'test'
+
 ```$ mkvirtualenv test```
-<br />
-Now, run the following command in your Terminal/Command Prompt to install the libraries required\
+
+
+Now, run the following command in your Terminal/Command Prompt to install the libraries required
 
 ```$ pip3 install -r requirements.txt```
+
 
 To download the **Trainner.yml** File [click here](https://bitbucket.org/memudu_alimatou/facial-recognition-opencv/src/master/)
 
