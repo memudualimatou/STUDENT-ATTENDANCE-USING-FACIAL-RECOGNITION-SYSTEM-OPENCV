@@ -42,10 +42,10 @@ This system works accordingly with a series of step explained below:
 
 
 
-The student interact with the system through the graphical user interface(GUI) above.
+The student interact with the system through the Graphical User Interface (GUI) above.
 The first step the student has to enter his details(Name and ID) this details will be stored in a csv file **'StudentDetailss.csv'**, the ID is Matric Number on the GUI.
-second step, the student will click on the **CAPTURE IMAGE** button to capture his faces, here 50pictures of the student will be taken and stored in the **TrainingImages** Folder.  The **haar-cascadeclassifier** file to detect faces through the video stream while the student face is being captured.
-the notification board will print ou the student details after a succesfull data collection.
+second step, the student will click on the **CAPTURE IMAGE** button to capture his faces, here 50pictures of the student will be taken and stored in the **TrainingImages** Folder.  The **haar-cascadeclassifier** file to detect faces through the video stream while the student face is being captured.\
+The notification board will print out the student details after a succesfull data collection.
 
 
 <br>
@@ -81,11 +81,11 @@ Clone the repo\
 ```$ git clone https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV.git```\
 
 Change your directory to the cloned repo and create a Python virtual environment named 'test'\
-```$ mkvirtualenv test```\
-
+```$ mkvirtualenv test```
+\
 Now, run the following command in your Terminal/Command Prompt to install the libraries required\
 
-```$ pip3 install -r requirements.txt```
+```$ pip3 install -r requirements.txt```\
 
 To download the **Trainner.yml** File [click here](https://bitbucket.org/memudu_alimatou/facial-recognition-opencv/src/master/)
 
