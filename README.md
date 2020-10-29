@@ -1,4 +1,4 @@
-# STUDENT ATTENDANCE uSING FACIAL RECOGNITION SYSTEM OPENCV
+## STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM OPENCV
 
 #### This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
 
@@ -15,6 +15,7 @@ It has 4 steps which are :
 3. **Data Comparison**: Despite variations in light or expression, it will compare those unique features to all the features of all the people you know.
 4. **Face Recognition:** It will determine “Hey, that’s my boy ”
 
+***
 ## TECHONLOGY USED
 
 * **OPENCV**
@@ -69,8 +70,12 @@ Simustenously, a csv file **AttendanceFile.csv'** will be updated with the ID,NA
 
 ![capture3](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/ezgif.com-gif-maker%20(1).gif)
 
+***
+## SYSTEM REQUIREMENT
 
-
+1. OpenCV-contrib-python  version:4.2.0.34
+2. TkInter version:8.6
+3 PIL version:7.0.0
 
 check this link to view the trainner file.
 
