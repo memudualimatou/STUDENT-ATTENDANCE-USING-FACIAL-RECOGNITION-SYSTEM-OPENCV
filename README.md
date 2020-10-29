@@ -1,8 +1,8 @@
 <h2 align="center"> STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM </h2>
 
-<h4 aligh='center'><i>This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.</i></h4>
+<h4 aligh='center'><i>This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.</i></h4><br>
 
-<br />
+
 ## 👩 FACE RECOGNITION 
 
 Face recognition is a biometric recognition technique.
