@@ -3,7 +3,7 @@
 ***This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.***
 
 
-##👩 FACE RECOGNITION 
+## 👩 FACE RECOGNITION 
 
 Face recognition is a biometric recognition technique.
 Biometric recognition is an information system that allows the identification of a person based on some of its main physiological and behavioral characteristics.
@@ -15,7 +15,7 @@ It has 4 steps which are :
 4. **Face Recognition** 
 
 
-##⚠️ TECHONLOGY USED
+## ⚠️ TECHONLOGY USED
 
 * [OPENCV](https://opencv.org/about/)
 
@@ -30,7 +30,7 @@ It has 4 steps which are :
 * [PIL](https://pillow.readthedocs.io/en/stable/)
 
 
-##⚙️ HOW THE SYSTEM WORKS?
+## ⚙️ HOW THE SYSTEM WORKS?
 
 This system works accordingly with a series of step explained below:
 
