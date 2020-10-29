@@ -75,7 +75,7 @@ Simustenously, a csv file **AttendanceFile.csv'** will be updated with the ID,NA
 
 1. OpenCV-contrib-python  version:4.2.0.34
 2. TkInter version:8.6
-3 PIL version:7.0.0
+3. PIL version:7.0.0
 
 check this link to view the trainner file.
 
