@@ -1,9 +1,9 @@
 ## STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM 
 
-***This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
+***This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.***
 
 
-## FACE RECOGNITION 
+##👩 FACE RECOGNITION 
 
 Face recognition is a biometric recognition technique.
 Biometric recognition is an information system that allows the identification of a person based on some of its main physiological and behavioral characteristics.
@@ -15,7 +15,7 @@ It has 4 steps which are :
 4. **Face Recognition** 
 
 
-## TECHONLOGY USED
+##⚠️ TECHONLOGY USED
 
 * [OPENCV](https://opencv.org/about/)
 
@@ -30,9 +30,9 @@ It has 4 steps which are :
 * [PIL](https://pillow.readthedocs.io/en/stable/)
 
 
-## HOW THE SYSTEM WORKS?
+##⚙️ HOW THE SYSTEM WORKS?
 
-This system works accordingly with a series of step below:
+This system works accordingly with a series of step explained below:
 
 1. **DATA COLLECTION**:
 <br>
@@ -70,12 +70,12 @@ the Unkown face captured will be store in the **UnkownImages** folder.<br>
 ![capture3](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/ezgif.com-gif-maker%20(1).gif)
 
 
-##  PEREQUISITES
+## 🔑 PEREQUISITES
 
 All the dependencies and required libraries are included in the file `requirements.txt` [See here](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/requirements.txt)
 
 
-##  INSTALLATION
+## 🚀 INSTALLATION
 
 Clone the repo\
 ```$ git clone https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV.git```\
@@ -88,16 +88,16 @@ Now, run the following command in your Terminal/Command Prompt to install the li
 
 To download the **Trainner.yml** File [click here](https://bitbucket.org/memudu_alimatou/facial-recognition-opencv/src/master/)
 
-👏 And it's done!
-Feel free to mail me for any doubts/query ✉️ chandrikadeb7@gmail.com
+## 👏 And it's done!
+Feel free to mail me for any doubts/query ✉️ anikesadia01@gmail.com
 
-🤝 Contribution
-Feel free to file a new issue with a respective title and description on the the Face-Mask-Detection repository. If you already found a solution to your problem, I would love to review your pull request!
+##  🤝 Contribution
+Feel free to file a new issue with a respective title and description on the the Student attendance repository. If you already found a solution to your problem, I would love to review your pull request!
 
-❤️ Owner
-Made with ❤️  by Chandrika Deb
+## ❤️ Owner
+Made with ❤️  by MEMUDU alimatou sadia
 
-👍 Credits
+## 👍 Credits
 https://www.pyimagesearch.com/
 https://www.tensorflow.org/tutorials/images/transfer_learning
 
