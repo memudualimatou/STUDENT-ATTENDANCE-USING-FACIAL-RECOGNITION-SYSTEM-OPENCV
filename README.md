@@ -1,8 +1,8 @@
-<h1 align="center"> # STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM </h1>
+<h2 align="center"> STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM </h2>
 
-***This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.***
+<h4 aligh='center'><i>This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.<i><h4>
 
-
+<br />
 ## 👩 FACE RECOGNITION 
 
 Face recognition is a biometric recognition technique.
@@ -103,7 +103,5 @@ Feel free to file a new issue with a respective title and description on the the
 Made with ❤️  by MEMUDU alimatou sadia
 
 ## 👍 Credits
-https://www.pyimagesearch.com/ \
-https://www.tensorflow.org/tutorials/images/transfer_learning
-
+https://www.pyimagesearch.com/ 
 
