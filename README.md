@@ -1,6 +1,6 @@
 ## STUDENT ATTENDANCE USING FACIAL RECOGNITION SYSTEM 
 
-***###This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
+***This is an automatic student attendance system using face recognition. The aim is to automate the process of attendance maintenance.
 
 
 ## FACE RECOGNITION 
@@ -32,10 +32,12 @@ It has 4 steps which are :
 
 ## HOW THE SYSTEM WORKS?
 
+This system works accordingly with a series of step below:
+
 1. **DATA COLLECTION**:
 <br>
 
-![capture](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/Capture12.PNG =250x250)
+![capture](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/Capture12.PNG)
 
 
 
@@ -48,16 +50,16 @@ the notification board will print ou the student details after a succesfull data
 
 <br>
 
-![capture2](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/555.PNG =250x250)
+![capture2](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/555.PNG=250x250)
 
 
-***
+
 2. **IMAGE TRAINED**
 
 The student has to click on the  **TRAIN IMAGE** button which will link his details, face features to the **LBPHrecognizer** to ease further face recognition,
 the recognizer will save the face features in the **trainner.yml** and "IMAGE TRAINED" will be printed on the GUI notification board after a successfull linkage.
 
-***
+
 3. **FACE TRACKING**
 
 The student has to click on the **TRACK IMAGE** button to allow the face recognizer to track his face through a video stream, when trhe system successfully recognize the student face, his details will show and "ATTENDANCE UPDATED" will be printed out otherwise , the ID will be Unkown and "ID UNKOWN, ATTENDANCE NOT UPDATED" will be printed out.
