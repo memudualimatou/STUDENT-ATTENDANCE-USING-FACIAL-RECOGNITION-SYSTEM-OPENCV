@@ -19,21 +19,23 @@ It has 4 steps which are :
 ## TECHONLOGY USED
 
 * **OPENCV**
->OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. 
+OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. 
 OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.
 
 * **TKINTER**
->Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, and is Python's de facto standard GUI.
+Tkinter is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, and is Python's de facto standard GUI.
 
 * **HAARCASCADE CLASSIFIER**
->It is an effective object detection approach,Haar classifiers are organized in sequences called stages (classification stages). The stage value is the sum of its classifier values.
+It is an effective object detection approach,Haar classifiers are organized in sequences called stages (classification stages). The stage value is the sum of its classifier values.
 
 * **LocalBinaryPatternHistogram (LBPH) recognizer**
-> It is an openCV recognizer, is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number.
+It is an openCV recognizer, is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighborhood of each pixel and considers the result as a binary number.
 
 * **trainner.yml**
->file detect specific face using python and opencv.
+file detect specific face using python and opencv.
 
+* **PIL**
+Python Imaging Library is a free and open-source additional library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
 
 ***
 ## HOW THE SYSTEM WORKS?
