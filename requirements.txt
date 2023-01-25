@@ -1,4 +1,4 @@
 opencv_python==4.4.0.42
-numpy==1.18.2
+numpy==1.22.0
 pandas==1.0.5
 Pillow==9.0.1
